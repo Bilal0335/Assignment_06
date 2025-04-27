@@ -7,7 +7,7 @@ Create a class Book with a class variable total_books. Add a class method increm
 # ! Solution
 
 class Book:
-    total_books = 0  # Class variable
+    total_books = 0
 
     def __init__(self, title):
         self.title = title
@@ -17,7 +17,7 @@ class Book:
     def increment_book_count(cls):
         cls.total_books += 1
 
-# Creating some books
+
 book1 = Book("Python Basics")
 book2 = Book("Data Structures")
 

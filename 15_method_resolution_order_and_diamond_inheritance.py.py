@@ -30,9 +30,9 @@ class C(A):
 class D(B, C):
     pass
 
-# Create object
+
 d = D()
 d.show()
 
-# Check MRO
+
 print(D.mro())

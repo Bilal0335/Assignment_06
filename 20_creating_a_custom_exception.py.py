@@ -16,7 +16,7 @@ def check_age(age):
     else:
         print("Age is valid.")
 
-# Usage
+
 try:
     check_age(16)
 except InvalidAgeError as e:

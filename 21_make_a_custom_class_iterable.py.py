@@ -21,6 +21,6 @@ class Countdown:
         self.start -= 1
         return current
 
-# Usage
+
 for number in Countdown(5):
     print(number)

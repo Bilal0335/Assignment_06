@@ -15,11 +15,9 @@ class Multiplier:
     def __call__(self, number):
         return number * self.factor
 
-# Create object
+
 mult = Multiplier(3)
 
-# Check callable
-print(callable(mult))  # True
+print(callable(mult))  
 
-# Call like function
-print(mult(5))  # 15
+print(mult(5))  

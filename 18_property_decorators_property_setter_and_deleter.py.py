@@ -26,7 +26,7 @@ class Product:
     def price(self):
         del self._price
 
-# Usage
+
 p = Product(100)
 print(p.price)
 p.price = 150

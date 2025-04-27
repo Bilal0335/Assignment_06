@@ -20,7 +20,7 @@ class Department:
     def add_employee(self, employee):
         self.employees.append(employee)
 
-# Usage
+
 emp1 = Employee("Alice")
 emp2 = Employee("Bob")
 
